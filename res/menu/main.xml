@@ -1,0 +1,62 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_websearch"
+          android:icon="@drawable/ic_drawer"
+          android:title="@string/action_websearch"
+          android:showAsAction="ifRoom|withText" />
+     <!-- Help -->
+      <!-- Refresh -->
+    <item android:id="@+id/action_refresh"
+          android:icon="@drawable/save_icon"
+          android:title="@string/action_refresh" 
+          android:showAsAction="ifRoom" />
+    
+    <!-- Help -->
+    <item android:id="@+id/action_help"
+          android:icon="@drawable/ic_action_help"
+          android:title="@string/action_help" 
+          android:showAsAction="ifRoom"/>
+    <item android:id="@+id/gallery_open"
+          android:icon="@drawable/ic_action_help"
+          android:title="Gallery" 
+          android:showAsAction="ifRoom"/>
+    
+    <!-- Check updates -->
+    <item android:id="@+id/action_check_updates"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="@string/action_check_updates"
+          android:showAsAction="ifRoom" />
+    
+    <item android:id="@+id/rotate_image"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="Rotate"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/choose_diff_image"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="Choose other pic"
+          android:showAsAction="ifRoom" />
+      <item android:id="@+id/share_image"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="Share Image"
+          android:showAsAction="ifRoom" />
+      <item android:id="@+id/write_text"
+          android:icon="@drawable/ic_action_refresh"
+          android:title="Write Text"
+          android:showAsAction="ifRoom" />
+     
+</menu>
